@@ -1,0 +1,8 @@
+ASN: 2
+TRP: 2
+HIS: 2
+ASP: 2
+PHE: 2
+TYR: 2
+GLU: 3
+GLN: 3
