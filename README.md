@@ -19,11 +19,6 @@ rotamer_frequency provides:
 
  $ python rotamer_frequency.py ChainID:OneLetterAminoAcidResidueNumber,...  pdb_file_path pdb_file_name
 
-### Positional arguments:
-  - residue_number, Specify the residue_number
-  - model_list, Specify the path to the model list by a text file
-  - xray, Specify the xray
-
 ### optional arguments:
   - -h, --help            show this help message and exit
   - --chi_atom CHI_ATOM, -c CHI_ATOM, 
@@ -35,6 +30,11 @@ rotamer_frequency provides:
   - --non_rotameric_def NON_ROTAMERIC_DEF, -n NON_ROTAMERIC_DEF, 
                         Specify the rotamer_lib.
   - --is_mutate, -m,  A flag if the input is mutated compated to the reference structure.
+
+### Positional arguments:
+  - residue_number, Specify the residue_number
+  - model_list, Specify the path to the model list by a text file
+  - xray, Specify the xray
 
 ### example outputs
   ```text
